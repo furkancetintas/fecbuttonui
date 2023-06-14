@@ -10,6 +10,12 @@ const App = () => {
     <>
       <Header />
       <div className='flex align-center justify-center flex-col my-16'>
+        <div className='justify-center align-center installation'>
+          <div className='flex container flex-col'>
+            <h4>Install</h4>
+            <code>npm install --save fecbuttonui</code>
+          </div>
+        </div>
         <div className='justify-center align-center'>
           <div className='flex container'>
             <span>
@@ -17,7 +23,6 @@ const App = () => {
               green, purple, red, yellow
             </span>
           </div>
-          <div className='flex container'></div>
         </div>
         <div className='justify-center align-center'>
           <h4>Default Buttons</h4>

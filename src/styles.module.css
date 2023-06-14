@@ -1,0 +1,1354 @@
+/* add css module styles here (optional) */
+
+/* !Default Buttons  */
+
+.btn-disabled {
+  pointer-events: auto !important;
+  cursor: not-allowed !important;
+  border: 1px solid #d8d8d8;
+  outline: none;
+  background-color: #f3f3f3;
+  color: #a1a1a1;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.btn-default {
+  cursor: pointer;
+  border: 1px solid #114fd4;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-default:hover {
+  border: 1px solid #114fd4;
+  background-color: #0b42b8;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-alternative {
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.btn-alternative:hover {
+  border: 1px solid #e9e9e9;
+  background-color: #f3f3f3;
+  color: #043ebb;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-dark {
+  cursor: pointer;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-dark:hover {
+  border: 1px solid #0a0a0a;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-light {
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-light:hover {
+  border: 1px solid #e0e0e0;
+  background-color: #f3f3f3;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-green {
+  cursor: pointer;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-green:hover {
+  border: 1px solid #15663b;
+  background-color: #15663b;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-purple {
+  cursor: pointer;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-purple:hover {
+  border: 1px solid #4c1c79;
+  background-color: #4c1c79;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-red {
+  cursor: pointer;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-red:hover {
+  border: 1px solid #9c2222;
+  background-color: #9c2222;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-yellow {
+  cursor: pointer;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-yellow:hover {
+  border: 1px solid #d8c304;
+  background-color: #d8c304;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* !Outline Buttons */
+
+.btn-default-outline {
+  cursor: pointer;
+  border: 1px solid #114fd4;
+  outline: none;
+  background-color: white;
+  color: #114fd4;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-default-outline:hover {
+  cursor: pointer;
+  border: 1px solid #114fd4;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-dark-outline {
+  cursor: pointer;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: white;
+  color: #222222;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-dark-outline:hover {
+  border: 1px solid #0a0a0a;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-green-outline {
+  cursor: pointer;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: white;
+  color: #1C7947;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-green-outline:hover {
+  border: 1px solid #15663b;
+  background-color: #15663b;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-purple-outline {
+  cursor: pointer;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: white;
+  color: #61229c;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-purple-outline:hover {
+  border: 1px solid #4c1c79;
+  background-color: #4c1c79;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-red-outline {
+  cursor: pointer;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: white;
+  color: #b11e1e;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-red-outline:hover {
+  border: 1px solid #9c2222;
+  background-color: #9c2222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-yellow-outline {
+  cursor: pointer;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: white;
+  color: #e3cd08;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-yellow-outline:hover {
+  border: 1px solid #d8c304;
+  background-color: #d8c304;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* ! Default Button rounded */
+
+.btn-default-rounded {
+  cursor: pointer;
+  border: 1px solid #114fd4;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-default-rounded:hover {
+  border: 1px solid #114fd4;
+  background-color: #0b42b8;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-alternative-rounded {
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-alternative-rounded:hover {
+  border: 1px solid #e9e9e9;
+  background-color: #f3f3f3;
+  color: #043ebb;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-dark-rounded {
+  cursor: pointer;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-dark-rounded:hover {
+  border: 1px solid #0a0a0a;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-light-rounded {
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-light-rounded:hover {
+  border: 1px solid #e0e0e0;
+  background-color: #f3f3f3;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-green-rounded {
+  cursor: pointer;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-green-rounded:hover {
+  border: 1px solid #15663b;
+  background-color: #15663b;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-purple-rounded {
+  cursor: pointer;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-purple-rounded:hover {
+  border: 1px solid #4c1c79;
+  background-color: #4c1c79;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-red-rounded {
+  cursor: pointer;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-red-rounded:hover {
+  border: 1px solid #9c2222;
+  background-color: #9c2222;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-yellow-rounded {
+  cursor: pointer;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-yellow-rounded:hover {
+  border: 1px solid #d8c304;
+  background-color: #d8c304;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ! Outline Rounded Buttons */
+
+.btn-default-outline-rounded {
+  cursor: pointer;
+  border: 1px solid #114fd4;
+  outline: none;
+  background-color: white;
+  color: #114fd4;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-default-outline-rounded:hover {
+  cursor: pointer;
+  border: 1px solid #114fd4;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-dark-outline-rounded {
+  cursor: pointer;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: white;
+  color: #222222;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-dark-outline-rounded:hover {
+  border: 1px solid #0a0a0a;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-green-outline-rounded {
+  cursor: pointer;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: white;
+  color: #1C7947;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-green-outline-rounded:hover {
+  border: 1px solid #15663b;
+  background-color: #15663b;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-purple-outline-rounded {
+  cursor: pointer;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: white;
+  color: #61229c;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-purple-outline-rounded:hover {
+  border: 1px solid #4c1c79;
+  background-color: #4c1c79;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-red-outline-rounded {
+  cursor: pointer;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: white;
+  color: #b11e1e;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-red-outline-rounded:hover {
+  border: 1px solid #9c2222;
+  background-color: #9c2222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-yellow-outline-rounded {
+  cursor: pointer;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: white;
+  color: #e3cd08;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-yellow-outline-rounded:hover {
+  border: 1px solid #d8c304;
+  background-color: #d8c304;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* !Dashed Buttons  */
+
+.btn-default-dashed {
+  cursor: pointer;
+  border: 1px dashed #114fd4;
+  outline: none;
+  background-color: white;
+  color: #114fd4;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-alternative-dashed {
+  cursor: pointer;
+  border: 1px dashed #bebebe;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-dark-dashed {
+  cursor: pointer;
+  border: 1px dashed #222222;
+  outline: none;
+  background-color: white;
+  color: #222222;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-light-dashed {
+  cursor: pointer;
+  border: 1px dashed #d1d1d1;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-green-dashed {
+  cursor: pointer;
+  border: 1px dashed #1C7947;
+  outline: none;
+  background-color: white;
+  color: #1C7947;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-purple-dashed {
+  cursor: pointer;
+  border: 1px dashed #61229c;
+  outline: none;
+  background-color: white;
+  color: #61229c;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+.btn-red-dashed {
+  cursor: pointer;
+  border: 1px dashed #b11e1e;
+  outline: none;
+  background-color: white;
+  color: #b11e1e;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-yellow-dashed {
+  cursor: pointer;
+  border: 1px dashed #e3cd08;
+  outline: none;
+  background-color: white;
+  color: #e3cd08;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* !Button sizes */
+
+.btn-default-extra-small {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-default-small {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-default-base {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-default-large {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-default-extra-large {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #114fd4;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-default-extra-small:hover, .btn-default-small:hover,
+.btn-default-base:hover, .btn-default-large:hover, .btn-default-extra-large:hover {
+  background-color: #0b42b8;
+}
+
+/* * Alternative Button sizes */
+
+.btn-alternative-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-alternative-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-alternative-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-alternative-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-alternative-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #eeeeee;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-alternative-extra-small:hover,
+.btn-alternative-small:hover,
+.btn-alternative-base:hover,
+.btn-alternative-large:hover,
+.btn-alternative-extra-large:hover {
+  border: 1px solid #e9e9e9;
+  background-color: #f3f3f3;
+  color: #043ebb;
+}
+
+/* * Dark Button sizes */
+
+.btn-dark-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-dark-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-dark-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-dark-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-dark-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #222222;
+  outline: none;
+  background-color: #222222;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-dark-extra-small:hover,
+.btn-dark-small:hover,
+.btn-dark-base:hover,
+.btn-dark-large:hover,
+.btn-dark-extra-large:hover {
+  border: 1px solid #0a0a0a;
+  background-color: #0a0a0a;
+}
+
+/* * Light Button sizes */
+
+.btn-light-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-light-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-light-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-light-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-light-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  background-color: white;
+  color: #0a0a0a;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-light-extra-small:hover,
+.btn-light-small:hover,
+.btn-light-base:hover,
+.btn-light-large:hover,
+.btn-light-extra-large:hover {
+  background-color: #f3f3f3;
+}
+
+/* * Green Button sizes */
+
+.btn-green-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-green-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-green-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-green-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-green-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #1C7947;
+  outline: none;
+  background-color: #1C7947;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-green-extra-small:hover,
+.btn-green-small:hover,
+.btn-green-base:hover,
+.btn-green-large:hover,
+.btn-green-extra-large:hover {
+  border: 1px solid #15663b;
+  background-color: #15663b;
+}
+
+/* * Purple Button sizes */
+
+.btn-purple-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-purple-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-purple-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-purple-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-purple-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #61229c;
+  outline: none;
+  background-color: #61229c;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-purple-extra-small:hover,
+.btn-purple-small:hover,
+.btn-purple-base:hover,
+.btn-purple-large:hover,
+.btn-purple-extra-large:hover {
+  border: 1px solid #4c1c79;
+  background-color: #4c1c79;
+}
+
+/* * Red Button sizes */
+
+.btn-red-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-red-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-red-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-red-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-red-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #b11e1e;
+  outline: none;
+  background-color: #b11e1e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-red-extra-small:hover,
+.btn-red-small:hover,
+.btn-red-base:hover,
+.btn-red-large:hover,
+.btn-red-extra-large:hover {
+  border: 1px solid #9c2222;
+  background-color: #9c2222;
+}
+
+/* * Yellow Button sizes */
+
+.btn-yellow-extra-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1rem;
+}
+
+.btn-yellow-small {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.25rem;
+}
+
+.btn-yellow-base {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.5rem;
+}
+
+.btn-yellow-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1.75rem;
+}
+
+.btn-yellow-extra-large {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #e3cd08;
+  outline: none;
+  background-color: #e3cd08;
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+
+.btn-yellow-extra-small:hover,
+.btn-yellow-small:hover,
+.btn-yellow-base:hover,
+.btn-yellow-large:hover,
+.btn-yellow-extra-large:hover {
+  border: 1px solid #d8c304;
+  background-color: #d8c304;
+}

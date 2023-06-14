@@ -43,6 +43,18 @@ header {
 .social-media> a:last-child {
   margin-right: 0px;
 }
+
+.installation div{
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+.installation h4 {
+  font-size: 20px;
+}
+.installation code {
+  font-size: 18px;
+}
+
 .flex{
   display: flex;
 }
